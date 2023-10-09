@@ -1,0 +1,4 @@
+FEATURES
+1. bookmarking/ saving the notes over the app.
+2.faq
+3.Reviews
