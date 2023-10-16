@@ -1,0 +1,14 @@
+.card-title{
+    font-weight: bold;
+}
+
+#card{
+    position:relative;
+   top: 130px;
+}
+
+#fpwd{
+    position: relative;
+    bottom: 25px;
+    left: 140px;
+}

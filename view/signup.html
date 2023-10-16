@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/public/css/signup.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+
+    <title>Signup</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <div class="container">
+        <div class="card mx-auto" id="card" style="width: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title">Signup</h5>
+                <div>
+                    <a href="./login.html" id="login"> <h5 class="card-title">Login</h5></a>
+                </div>
+                <form class="row gy-2 gx-3 align-items-center needs-validation" novalidate action="./signupmsg.html">
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInput">Name</label>
+                        <div class="input-group has-validation">
+                            <div class="input-group-text">👤</div>
+                            <input type="text" class="form-control" id="autoSizingInput" placeholder="username"
+                                required>
+                                <!-- <div class="invalid-feedback">
+                                    Please enter your username.
+                                </div> -->
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+                        <div class="input-group has-validation">
+                            <div class="input-group-text">📧</div>
+                            <input type="email" class="form-control" id="autoSizingInputGroup" placeholder="Email Id"
+                                required>
+                                <!-- <div class="invalid-feedback">
+                                    Please enter a valid email id
+                                </div> -->
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">organisation</label>
+                        <div class="input-group has-validation">
+                            <div class="input-group-text">🏫</div>
+                            <input type="text" class="form-control" id="autoSizingInputGroup"
+                                placeholder="Organisation name" required>
+                                <!-- <div class="invalid-feedback">
+                                     Please enter your Institution Name
+                                </div> -->
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">Board</label>
+                        <div class="input-group has-validation">
+                            <div class="input-group-text" id="ip-group">Board</div>
+                            <input type="text" class="form-control" id="board" placeholder="Stateboard/cbse" required>
+                        <!-- <div class="invalid-feedback">
+                         Please enter your Board of Education
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">Password</label>
+                        <div class="input-group has-validation">
+                            <div class="input-group-text">🔐</div>
+                            <input type="password" class="form-control" id="autoSizingInputGroup"
+                                placeholder="Alpanumeric password" required>
+                                <!-- <div class="invalid-feedback">
+                                    Please enter valid password
+                                </div> -->
+                        </div>
+                        <span id="passwordHelpInline" class="form-text">
+      Must be 8-20 characters long, any of these special characters(!@#$%^&*())
+    </span>
+                    </div>
+                    
+                    <div class="col-auto">
+                        <input type="password" class="form-control" id="pwd" placeholder="confirm password" required>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select form-select-sm has-validation" id="autoSizingSelect" required>
+                            <option selected disabled value="">User Category</option>
+                            <option value="1">Student</option>
+                            <option value="2">Teacher</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a user category.
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                            <label class="form-check-label" for="autoSizingCheck">
+                                Remember me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-info">Signin</button>
+                    </div>
+
+                </form>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="./script/validation.js"></script>
+</body>
+
+</html>

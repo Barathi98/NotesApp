@@ -1,0 +1,30 @@
+.card-title{
+    font-weight: bold;
+}
+
+#card{
+    position:relative;
+   top: 40px;
+}
+
+#ip-group{
+    padding-inline-end: 1px;
+    padding-inline-start: 2px;
+    font-weight: 500;
+}
+
+/* password */
+#pwd{
+    padding-right: 60px;
+}
+
+/* login */
+#login{
+    text-decoration-color: brown;
+    color: black;
+    position: relative;
+    bottom: 35px;
+    left: 70%;
+}
+
+

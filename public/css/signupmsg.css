@@ -1,0 +1,15 @@
+#msg{
+    position:relative;
+   top: 80px;
+   padding-left: 40%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+
+#slog{
+    font-size: large;
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration-color: brown;
+    
+}
