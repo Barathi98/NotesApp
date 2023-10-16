@@ -57,28 +57,6 @@
             border: transparent; /* Set the border to be transparent */
         }
 
-        /*flip */
-        /* .waviy  {
-          background-color: rgb(237, 229, 229);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          min-height: 10vh;
-          position: relative;
-          display: inline-block;
-          font-size: 40px;
-          color: rgb(21, 19, 19);
-          text-transform: uppercase;
-          animation: bounce 2s infinite;
-        }
-        @keyframes bounce {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-20px);
-          }
-        } */
         
 
         /* typing text */
