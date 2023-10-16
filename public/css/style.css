@@ -1,0 +1,141 @@
+     
+        .movable-text {
+            white-space: nowrap; /* Prevent text from wrapping */
+            animation: moveText 25s linear infinite;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateX(100%);
+            }
+           100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .carousel-caption h1,
+        .carousel-caption h4,
+        .carousel-caption h5 {
+            color: #5b0303; /* Change this color code to your desired text color */
+        }
+
+        .div-color{
+          color: #44107a;
+        }
+
+
+        /* welcome */
+        .color {
+          color: rebeccapurple;
+          text-transform: uppercase;
+          background-image: linear-gradient(
+           -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+          );
+          background-size: auto auto;
+          background-clip: border-box;
+          background-size: 200% auto;
+          color: #fff;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+          display: inline-block;
+          font-size: 50px;
+        } 
+
+        @keyframes textclip {
+          to {
+               background-position: 200% center;
+              }
+          }
+
+        .card {
+            border: transparent; /* Set the border to be transparent */
+        }
+
+        /*flip */
+        /* .waviy  {
+          background-color: rgb(237, 229, 229);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 10vh;
+          position: relative;
+          display: inline-block;
+          font-size: 40px;
+          color: rgb(21, 19, 19);
+          text-transform: uppercase;
+          animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-20px);
+          }
+        } */
+        
+
+        /* typing text */
+        /* Initial styles for the typing container */
+        .typing-container {
+        background-color: rgb(237, 229, 229);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        }
+
+      /* Styling for the typing animation */
+      .typing-text {
+      font-size: 20px;
+      color: rgb(21, 19, 19);
+      text-transform: uppercase;
+      white-space: nowrap; /* Prevent text from wrapping */
+      overflow: hidden; /* Hide overflowing text */
+      border-right: 3px solid transparent; /* Initial transparent border for the typing effect */
+      animation: typing 5s steps(30) infinite, blink-caret 0.5s infinite; /* Typing and blinking cursor animations */
+      }
+      @keyframes typing {
+          0% {
+              width: 0; /* Start with zero width (invisible) */
+          }
+          100% {
+              width: 100%; /* Finish with full width (visible) */
+          }
+      }
+
+      @keyframes blink-caret {
+          from,
+          to {
+              border-color: transparent; /* Blinking cursor is invisible at the start and end */
+          }
+          50% {
+              border-color: rgb(21, 19, 19); /* Blinking cursor is visible in the middle */
+          }
+      }
+
+      /* container size */
+
+      .size{
+        max-width: 100%;
+        max-height: 330px;
+
+      }
+
+      #align{
+        /* text-align: left; */
+        max-width: 500px;
+        text-align: justify; 
+        margin-left: 530px;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        }
+    
